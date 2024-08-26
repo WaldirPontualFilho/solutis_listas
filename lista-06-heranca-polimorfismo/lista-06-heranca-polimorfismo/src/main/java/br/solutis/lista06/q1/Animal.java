@@ -19,7 +19,7 @@ public abstract class Animal {
 
     public abstract void emitirSom();
 
-    // Método abstrato para o comportamento específico de cada animal
+
     public abstract void acaoEspecifica();
 }
 

@@ -13,7 +13,7 @@ public class Fornecedor extends Pessoa {
         this.valorDivida = valorDivida;
     }
 
-    // Método para obter o saldo
+
     public double obterSaldo() {
         return valorCredito - valorDivida;
     }

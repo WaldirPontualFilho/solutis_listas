@@ -30,7 +30,7 @@ public class Operario extends Empregado {
         this.comissao = comissao;
     }
 
-    // Redefinindo o método calcularSalario
+
     @Override
     public double calcularSalario() {
         return super.calcularSalario() + (valorProducao * comissao / 100);

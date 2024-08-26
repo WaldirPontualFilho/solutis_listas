@@ -7,7 +7,7 @@ public abstract class Comissao {
         return adicional;
     }
 
-    // Método abstrato para calcular o salário com comissão
+
     public abstract double calcularSalario(double salarioBase);
 }
 

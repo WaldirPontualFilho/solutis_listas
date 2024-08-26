@@ -40,7 +40,7 @@ public class Empregado extends Pessoa {
         this.imposto = imposto;
     }
 
-    // Método para calcular o salário líquido
+
     public double calcularSalario() {
         return salarioBase * (1 - imposto / 100);
     }
